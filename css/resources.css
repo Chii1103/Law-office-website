@@ -1,0 +1,98 @@
+.container-r h3 {
+  margin-top: 7%;
+  font-size: clamp(1rem, 3vw, 3rem);
+  font-weight: 700;
+
+}
+
+.container-r {
+  padding: 1% 3%;
+  margin: 3% auto 6%;
+  width: auto;
+  height: auto;
+  max-height: fit-content;
+  max-width: 1280px;
+  min-width: 320px;
+
+
+
+}
+
+.virticalLine {
+  font-weight: 300;
+}
+
+
+.resourcesWrap {
+  display: flex;
+  gap: clamp(2%, 11%, 15%);
+  justify-content: center;
+  margin: 6% auto;
+}
+
+.box {
+  max-width: 360px;
+  max-height: 424px;
+  width: 30%;
+  height: auto;
+  background-color: rgb(217, 217, 217, 0.5);
+  margin-bottom: 3%;
+  border-radius: 6%;
+}
+
+.box-visual {
+  max-width: 90%;
+  max-height: 50%;
+  background-color: #fff;
+  border-radius: 6%;
+  margin: 6% auto;
+  position: relative;
+  aspect-ratio: 16 / 9;
+}
+
+#nr-2 .box-visual {
+  background-color: #7B7B7B;
+}
+.box-visual img {
+  max-width: clamp(50%, 92%, 17vw);
+  height: auto;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  aspect-ratio: initial;
+  border-radius: 6%;
+}
+
+
+.box-text {
+  max-width: 90%;
+  max-height: 55%;
+  background-color: #fff;
+  width: auto;
+  border-radius: 6%;
+  margin: 3% auto;
+}
+
+.box-text h4 {
+  font-size: clamp(0.9rem, 2vw, 1.3rem);
+  padding: 6% 3%;
+}
+
+.box-text p {
+  font-size: clamp(0.5rem, 1vw, 0.9rem);
+  padding: 6% 0 6% 2%;
+  word-break: break-word;
+
+}
+
+/* Smartphone */
+@media screen and (max-width: 599px) {
+  .paroleResourcesWrap {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

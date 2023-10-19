@@ -1,0 +1,41 @@
+#missionVV-wrap {
+  margin: 0 auto 3% auto;
+}
+
+.h2line {
+  color: var(--SC);
+  font-family: serif;
+  border-bottom: 3px solid #000;
+}
+
+#aboutme-wrap {
+  justify-content: flex-start;
+  gap: 11%;
+  background-color: var(--LC);
+}
+
+#aboutme-wrap h3 {
+  font-weight: bold;
+}
+
+#aboutme-wrap ul li {
+  list-style: inside;
+}
+
+#team-wrap {
+  display: flex;
+  gap: 11%;
+  background-color: var(--LC);
+
+}
+
+.person-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.person-wrap p {
+  font-size: clamp(0.9rem, 1.1rem, 1.2rem);
+}

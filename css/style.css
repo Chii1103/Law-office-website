@@ -1,0 +1,1076 @@
+@charset "utf-8";
+@import url(variable.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html {
+
+  font-family: 'Abril Fatface';
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  min-height: 100%;
+  color: var(--MC);
+  font-size: 16px;
+  line-height: 1;
+  width: 100vw;
+  max-width: 1920px;
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+
+.head-container-wrap {
+  display: flex;
+  align-items: center;
+  padding: 1% 4%;
+  justify-content: space-between;
+}
+
+.top-nav {
+  box-sizing: content-box;
+}
+
+.top-nav-ul {
+  margin-left: auto;
+}
+
+.logo {
+  /* padding: 2%; */
+  width: 15%;
+  flex-shrink: 0;
+}
+
+.logo img {
+  max-width: 65%;
+  min-width: 30%;
+  padding: 1%;
+  margin-top: 3%;
+}
+
+
+
+.top-nav {
+  padding: 2% 0;
+  max-width: 85%;
+  min-width: 81%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9rem;
+}
+
+.top-nav-ul {
+  display: flex;
+  gap: 3px;
+
+}
+
+.top-nav-ul li {
+  color: var(--SC);
+  font-size: clamp(0.3rem, 1.3vw, 1.8rem);
+}
+
+.top-nav-ul li a {
+  padding: 6px 18px;
+}
+
+.top-nav-ul li a:hover {
+  background-color: var(--MC);
+  color: #fff;
+}
+
+.main-visual-wrap {
+  width: 100vw;
+
+  min-height: 357px;
+  /* background: linear-gradient(#fff,#8BF1FF, #00BDD7); */
+
+  background: url(../img/first-page/first-view.jpg) no-repeat center/cover;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  box-sizing: content-box;
+}
+
+.main-visual {
+  /* min-width: 1000px;
+  min-height: 356px; */
+  margin: 0 auto;
+  color: #fff;
+  /* line-height: 1.8;
+  position: relative;
+  
+  box-sizing: content-box; */
+}
+
+.main-visual h1 {
+  font-size: clamp(0.9rem, 5vw, 2.9rem);
+  margin: 30px auto 115px auto;
+  display: table;
+  font-weight: bolder;
+}
+
+.main-visual h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.main-visual address {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+#five-box-wrap h2 {
+  color: var(--SC);
+  font-family: var(--catchFont);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3%;
+  flex: none;
+}
+
+#five-box-wrap {
+  padding: 1% 5%;
+  margin: 3% auto;
+  background-color: #fff;
+  min-height: 176px;
+  max-width: 1280px;
+  width: auto;
+}
+
+#five-box-wrap ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 3%;
+  padding-top: 2%;
+}
+
+#five-box-wrap ul li {
+  color: #fff;
+  background-color: rgba(1, 191, 217, 0.5);
+  backdrop-filter: blur(60px);
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  /* margin: 0 auto; */
+  padding: auto 0;
+  border-radius: 11%;
+}
+
+#five-box-wrap ul li:hover {
+  background-color: rgba(1, 191, 217, 1.0);
+  transform: scale(1.1);
+}
+
+
+
+
+#criminal-box img,
+#drug-box img,
+#white-box img,
+#violent-box img,
+#parole-box img {
+  max-width: 30px;
+  width: auto;
+  height: auto;
+  margin: 13% 33%;
+}
+
+.container-a {
+  padding: 1% 3%;
+  margin: 3% auto;
+  width: auto;
+  height: auto;
+  max-height: 390px;
+  max-width: 1280px;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  /* gap: 20%; */
+  align-items: center;
+  font-size: 30px;
+  line-height: 2.6rem;
+
+}
+
+
+h2 {
+  font-size: 2.3rem;
+  margin: 11% auto;
+  /* text-decoration: underline; */
+  text-align: center;
+  font-weight: 800;
+  font-style: italic;
+  color: var(--SC);
+}
+
+
+
+#attorney-navigation,
+#wins-navigation {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  font-size: 30px;
+  line-height: 2.6rem;
+}
+
+
+
+#wins-navigation img {
+  height: auto;
+  width: auto;
+  max-width: 424px;
+  min-width: 50%;
+  min-height: 50%;
+  /* padding-left: 13%; */
+  border-radius: 50px;
+}
+
+#attorney-navigation img {
+  height: auto;
+  width: auto;
+  max-height: 340px;
+  padding-right: 13%;
+  border-radius: 11%;
+  margin-top: -23px;
+}
+
+#attorney-navigation-left,
+#wins-navigation-right {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  min-width: 400px;
+  text-align: center;
+  background-color: var(--LC);
+  border-radius: 50px;
+  z-index: 999;
+  margin-left: -64px;
+  margin-top: 100px;
+  padding: 2.5%;
+}
+
+/* navigation area ends */
+
+/* MissionVisionValue starts */
+
+#missionVV-wrap {
+  background-color: var(--LC);
+  flex-direction: column;
+}
+
+/* #missionVV-wrap h2{
+  font-family: var(--mainFont);
+} */
+#missionVV-wrap h3 {
+  font-size: clamp(0.9rem, 2.7rem, 3.3rem);
+  font-weight: 900;
+  margin-bottom: 3%;
+}
+
+.bar-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.bar {
+  min-width: 170px;
+  height: 150px;
+  background-color: rgba(10, 47, 93, 0.426);
+  border-radius: 0 100% 100% 0;
+  margin: 3%;
+}
+
+#vision-bar {
+  background-color: #0a2f5dce;
+}
+
+#value-bar {
+  background-color: #0a2f5d;
+  margin-bottom: 3%;
+}
+
+.bar-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8%;
+  color: var(--SC);
+}
+
+/* MissionVisionValue ends */
+
+/* award starts */
+#award-wrap img {
+  margin: 3%;
+}
+
+/* award ends */
+
+/* our practice area begins */
+
+
+
+.container-b {
+  padding: 1% 9%;
+  margin: 3% auto 3% auto;
+  width: auto;
+  height: auto;
+  max-height: 1390px;
+  max-width: 1280px;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  /* gap: 60%; */
+  align-items: center;
+  font-size: 1.3rem;
+  line-height: 2.6rem;
+
+}
+
+
+#top-practice-areas {
+  text-align: center;
+  max-height: 1300px;
+  max-width: 768px;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+#line01-practice img,
+#line02-practice img {
+
+  max-width: 100%;
+  min-width: 100px;
+  width: auto;
+  height: auto;
+  border-radius: 50px;
+}
+
+/* #line01-practice img:hover,
+#line02-practice img:hover {
+  transform: scale(1.1);
+
+} */
+
+/* #top-practice-areas h3,
+#top-evaluation-wrap h3,
+#contact h3 {
+ 
+} */
+
+#top-practice-areas h4 {
+  margin: 3% auto;
+  font-weight: 100;
+  background-color: var(--LC);
+  border-radius: 50px;
+  font-size: 1rem;
+  color: var(--SC);
+  font-weight: 400;
+}
+
+
+#line01-practice,
+#line02-practice {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  margin-bottom: 6%;
+}
+
+.btn {
+  width: 206px;
+  height: 60px;
+  background-color: var(--SC);
+  color: #fff;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 18px;
+  transition: all 0.3s;
+  border-radius: 50px;
+  padding-right: 16%;
+  padding: 1.5% 0;
+}
+
+
+.btn:hover {
+  background-color: #fff;
+  color: var(--MC);
+  border: 1px solid var(--MC);
+}
+
+.circle {
+  background-color: #fff;
+  width: 12%;
+  height: 7%;
+  border-radius: 50%;
+  margin-top: -22%;
+  margin-left: 67%;
+}
+
+/* practice area ends */
+
+/* whyUs begins */
+
+#whyUs {
+  background-color: var(--LC);
+  padding-bottom: 4%;
+}
+
+.why-cube-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 15%;
+}
+
+#whyUs h2 {
+  padding: 6%;
+}
+
+.why-cube {
+  min-width: 11%;
+  min-height: 11%;
+  background-color: var(--SC);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 11%;
+}
+
+.why-cube img {
+  margin: 8% 8% 15% 8%;
+  width: 45%;
+}
+
+.why-cube p {
+  color: #fff;
+  line-height: 2rem;
+}
+
+.why-crucial {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+/* whyUs ends */
+
+/* contactUs */
+#topPage-contact {
+  background-color: rgb(39, 124, 223, 76%);
+  width: 100vw;
+  height: auto;
+  padding-bottom: 4%;
+}
+
+#topPage-contact h2 {
+  color: #fff;
+  padding: 3%;
+  line-height: 2.3;
+  margin: 0;
+}
+
+/* free evaluation begins */
+
+.container-c {
+  padding: 1% 3%;
+  margin: 3% auto 3% auto;
+  width: auto;
+  height: auto;
+  max-height: 1390px;
+  max-width: 1280px;
+  min-width: 300px;
+  /* display: flex;
+  justify-content: center; */
+  /* gap: 60%; */
+  align-items: center;
+  font-size: 1.3rem;
+  line-height: 2.6rem;
+
+}
+
+#top-evaluation-wrap {
+  padding: 1% 3%;
+  margin: 11px auto 0 auto;
+  background-color: #fff;
+
+  min-height: 1043px;
+
+  max-width: 1280px;
+  width: auto;
+  text-align: center;
+}
+
+/* Free Evaluation*/
+#contact p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#contact dt {
+  width: 25%;
+  margin-bottom: 10px;
+  text-align: right;
+  padding-right: 3%;
+}
+
+#contact dd {
+  width: 56%;
+  margin-bottom: 10px;
+}
+
+#contact dd textarea {
+  height: 10rem;
+
+}
+
+#contact dd input,
+#contact dd textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(10, 48, 93, .3);
+}
+
+#contact dd input:hover,
+#contact dd textarea:hover {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(10, 48, 93, .15);
+}
+
+#contact .btn {
+
+  transition: all 0.3s;
+  margin-bottom: 11%;
+}
+
+#contact .btn input {
+  display: block;
+  inset: 0;
+  margin: auto;
+}
+
+#contact .btn:hover {
+  background-color: #fff;
+  color: var(--MC);
+  border: 1px solid var(--MC);
+}
+
+
+
+
+
+
+/* footer */
+footer {
+  width: auto;
+  max-width: 1920px;
+  min-width: 320px;
+  height: fit-content;
+
+  margin: 0 auto;
+  background: linear-gradient(#fff, #8BF1FF, #00BDD7);
+  text-align: center;
+}
+
+#office-wrap {
+  color: var(--SC);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 13%;
+  margin-top: 4%;
+  text-align: center;
+  line-height: 2.4rem;
+  padding: 0 2%;
+}
+
+#office-wrap h4 {
+  font-size: 24px;
+}
+
+.map {
+  width: 90px;
+  height: 30px;
+  background-color: #fff;
+  margin: 3% auto;
+}
+
+#message {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  gap: 6%;
+  margin: 7% auto;
+  font-size: 26px;
+}
+
+
+footer address,
+small {
+  margin: 3% auto;
+  color: var(--SC);
+}
+
+/* top button  begins*/
+
+.pagetop-icon {
+  position: fixed;
+  right: 20px;
+  bottom: 45px;
+}
+
+#top-maru {
+  min-width: 50px;
+  min-height: 50px;
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 3%;
+  position: relative;
+}
+
+#top {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* top button ends*/
+
+
+/* Tablet */
+@media screen and (max-width: 799px) {
+  #five-box-wrap ul li {
+    width: 103px;
+    height: 109px;
+  }
+}
+
+/* Smartphone */
+@media screen and (max-width: 599px) {
+
+  /* hmbBtn starts */
+
+  #header.active {
+    background-color: lightblue;
+  }
+
+  /* hmbBtn non active */
+  #hmb {
+    width: 32px;
+    height: 28px;
+    cursor: pointer;
+    position: relative;
+    z-index: 30;
+  }
+
+  #hmb span {
+    width: 32px;
+    height: 3px;
+    display: block;
+    background-color: var(--SC);
+    border-radius: 2px;
+    position: absolute;
+    transition: .2s;
+  }
+
+  #hmb span:first-child {
+    top: 0;
+  }
+
+  #hmb span:nth-child(2) {
+    top: 12px;
+  }
+
+  #hmb span:last-child {
+    top: 24px;
+  }
+
+
+
+
+  .top-nav {
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 88%;
+    max-width: 400px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(91, 148, 254, 0.997);
+    z-index: 20;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition-property: all;
+    transition-duration: .2s;
+  }
+
+  .top-nav-ul {
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .top-nav-ul li {
+    font-size: 1.3rem;
+    color: #fff;
+  }
+
+  /* When hmbBtn is active */
+  .active #hmn span {
+    z-index: 99;
+  }
+
+  .active #hmb span:first-child {
+    top: 12px;
+    transform: rotate(45deg);
+    z-index: 99;
+  }
+
+  .active #hmb span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .active #hmb span:last-child {
+    top: 12px;
+    transform: rotate(-45deg);
+    z-index: 99;
+  }
+
+  .active .top-nav {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .active ::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+  /* これのせいでhmbのlink飛べなかった */
+    /* width: 100vw;
+    height: 100vh; */
+    opacity: 0.4;
+    z-index: 10;
+  }
+
+
+  /* hmbBtn ends */
+  .main-visual h1 {
+    font-size: 1.2rem;
+    width: 100vw;
+    /* word-break: break-all; */
+    text-align: center;
+    padding: 0 8%;
+  }
+
+  .main-visual h2 {
+    font-size: 1.5rem;
+    padding: 0 6%;
+  }
+
+  .main-visual address {
+    font-size: 1rem;
+  }
+
+  #five-box-wrap {
+    padding: 6% 8%;
+    max-width: 599px;
+
+  }
+
+  #five-box {
+    padding: 6% 8%;
+    max-width: 599px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #five-box-wrap h2 {
+    margin-bottom: 8%;
+  }
+
+  #five-box-wrap ul {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 33px;
+    max-width: 450px;
+    min-width: 300px;
+  }
+
+  #five-box-wrap ul li {
+
+    min-width: 30px;
+    min-height: 30px;
+    font-size: 13px;
+    margin-bottom: 3%;
+    box-sizing: border-box;
+  }
+
+  #award-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #award-wrap img {
+    margin: 6%;
+  }
+
+  #wins-navigation-wrap {
+    max-height: 383px;
+    margin: 13% auto 21% auto;
+  }
+
+  #wins-navigation {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 6%;
+  }
+
+  #attorney-navigation-wrap {
+
+    margin: 8% auto 21% auto;
+  }
+
+  #attorney-navigation {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    height: 300px;
+    margin-bottom: 6%;
+  }
+
+
+  #wins-navigation img,
+  #attorney-navigation img {
+    max-width: 80%;
+    min-width: 280px;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+  }
+
+
+  #wins-navigation-right {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-width: 400px;
+    height: auto;
+    text-align: center;
+    background-color: var(--LC);
+    border-radius: 50px;
+    z-index: 999;
+    margin-left: 0;
+    margin-top: -38px;
+    margin-bottom: 100px;
+    padding: 2.5%;
+  }
+
+  #attorney-navigation-left {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    min-width: 400px;
+    text-align: center;
+    background-color: var(--LC);
+    border-radius: 50px;
+    z-index: 999;
+    margin-left: 0;
+    margin-top: 76px;
+    padding: 2.5%;
+  }
+
+  #attorney-navigation img {
+    margin-top: 130px;
+  }
+
+
+  #attorney-navigation-left {
+    margin-top: -23px;
+  }
+
+  #wins-navigation-right h3 {
+    margin-top: 40px;
+  }
+
+  #wins-navigation-right h3,
+  #attorney-navigation-left h3 {
+    font-size: 21px;
+    line-height: 1.8rem;
+  }
+
+  #wins-navigation-right p,
+  #attorney-navigation-left p {
+    font-size: 13px;
+    line-height: 1.8rem;
+  }
+
+  /* our practice area */
+
+  .container-b {
+    margin: 33% auto 40% auto;
+  }
+
+  #line01-practice,
+  #line02-practice {
+    flex-direction: column;
+  }
+
+  #line01-practice img,
+  #line02-practice img {
+    width: auto;
+    max-width: 203px;
+    min-width: 100px;
+    height: auto;
+  }
+
+
+
+  #top-evaluation-wrap {
+    padding: 1% 3%;
+    margin: 11px auto 0 auto;
+    background-color: #fff;
+    min-height: 716px;
+    max-width: 500px;
+    width: auto;
+    text-align: center;
+  }
+
+
+  #top-practice-areas h4 {
+    margin: 3% auto;
+    font-weight: 100;
+    background-color: var(--LC);
+    border-radius: 50px;
+    font-size: 1rem;
+    color: var(--SC);
+    font-weight: 400;
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  /* Free Evaluation */
+  /* #contact {
+    padding: 0 4%;
+    text-align: center;
+    margin: 21% auto;
+  } */
+
+
+  #contact p {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  #contact dl {
+    flex-direction: column;
+  }
+
+  #contact dt {
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+  #contact dd {
+    width: 100%;
+
+  }
+
+  .why-cube-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15%;
+  }
+
+  .why-cube {
+    margin-bottom: 30px;
+  }
+
+  #office-wrap {
+    color: var(--SC);
+    display: block;
+    /* display: flex; */
+    /* align-items: center;
+      justify-content: center; */
+    gap: 13%;
+
+  }
+
+  #office-wrap h4 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  #office-wrap address {
+    font-size: 0.9rem;
+  }
+
+  .map {
+    width: 90px;
+    height: 30px;
+    background-color: #fff;
+    margin: 3% auto;
+  }
+
+  #okla,
+  #lawton,
+  #altus {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    min-width: 80vw;
+  }
+
+  #message {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 15% auto 21% auto;
+    font-size: 26px;
+    font-weight: normal;
+    padding: 0 3%;
+  }
+
+  small {
+
+    font-size: 0.5rem;
+    font-weight: normal;
+  }
+
+}

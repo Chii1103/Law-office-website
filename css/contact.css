@@ -1,0 +1,120 @@
+body {
+  color: var(--SC);
+}
+
+/* .main-visual h1{
+  color: #fff;
+  font-size: 72px;
+ margin: 8% auto 3% auto;
+} */
+
+
+/* .main-visual h1{
+  color: #fff;
+  font-size:3rem;
+ margin: 8% auto 6% auto;
+} */
+
+/* .main-visual h2{
+ 
+ margin: 4% auto 0 auto;
+} */
+
+.subpage-main-visual {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 600px;
+  padding: 0 8%;
+  /* text-align: center; */
+  min-height: 356px;
+  /* margin: 0 auto; */
+  line-height: 1.8;
+  color: #fff;
+  box-sizing: content-box;
+}
+
+.subpage-mv-h1 {
+  position: absolute;
+  font-size: 3rem;
+  top: 16%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+}
+
+.subpage-mv-h2 {
+  position: absolute;
+  font-size: 1.3rem;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  min-width: 1000px;
+}
+
+.line {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: serif;
+}
+
+
+#contact h3 {
+  margin: 6% auto;
+  text-align: center;
+  font-size: clamp(1rem, 3vw, 3rem);
+  font-weight: 700;
+}
+
+.contact-p {
+  margin: 0 auto 30px auto;
+  /* text-align: justify; */
+  word-break: break-all;
+  width: 80vw;
+  line-height: 1.6;
+}
+
+.subpage-main-visual address {
+  font-style: inherit;
+  display: table;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 2.5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.submit-btn {
+  width: 170px;
+  height: 42px;
+  background-color: var(--MC);
+  color: #fff;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 18px;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Smartphone */
+@media screen and (max-width: 599px) {
+
+  .subpage-mv-h1 {
+    font-size: 2rem;
+  }
+
+}
+
+/* Tablet */
+@media screen and (max-width: 800px) {
+  .top-nav {
+    display: none;
+  }
+
+}

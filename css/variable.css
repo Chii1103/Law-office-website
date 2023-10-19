@@ -1,0 +1,9 @@
+:root{
+  --MC:rgb(1, 191, 217);
+  --SC:#0A305D;
+  --LC:#DFF7FB;
+  /* LC = light color */
+  --mainFont: font-family: 'Abril Fatface',sans-serif;
+  --catchFont: font-family: 'Poppins', sans-serif;
+}
+
